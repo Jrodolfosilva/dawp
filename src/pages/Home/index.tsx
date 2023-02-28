@@ -1,5 +1,6 @@
 import Header from "@/components/header/Header";
 import next from "next";
+import Image from "next/image";
 import styles from "../../styles/home.module.css";
 
 
@@ -24,37 +25,38 @@ const Home=()=>{
             </div>
          </div>
          <div className={styles.Containercreative}>
-            <img src="https://somosleve.com.br/wp-content/themes/Leve_2023/img/banner.png" alt="img" />
+            <img src="/images/bannermain.png" alt="img" />
          </div>
         </section>
 
         <section className={styles.ContainerAbout}>
 
             <div className={styles.AboutCreative}>
-                <img src="https://somosleve.com.br/wp-content/themes/Leve_2023/img/img-mao-celular.jpg" alt="imagem com efeito de movimento" />
+               
+                <img src="/images/img-about.jpg" alt="imagem com efeito de movimento" />
 
             </div>
 
             <div className={styles.AboutContent}>
-                <span>Quem Somos</span>
+                <span>Quem Somos?</span>
                 <h2>
                     Utilizamos tecnologia a favor do pequeno e médio empreendedor
 
                 </h2>
                 <div>
-                    <img src="https://somosleve.com.br/wp-content/themes/Leve_2023/img/icon-o-que-somos-1.svg" width="60px" alt="iconlogo" />
+                    <img src="/icones/icon-o-que-somos-1.svg" width="60px" alt="iconlogo" />
                     <p>
                         Oferecemos consultoria financeira para ajudar os colaboradores a superar desafios e realizar sonhos
                     </p>
                 </div>
                 <div>
-                    <img src="https://somosleve.com.br/wp-content/themes/Leve_2023/img/icon-o-que-somos-2.svg" width="60px" alt="iconlogo" />
+                    <img src="/icones/icon-o-que-somos-2.svg" width="60px" alt="iconlogo" />
                     <p>
                         Diagnosticamos a raiz dos problemas financeiros e entregamos a melhor solução para cada caso
                     </p>
                 </div>
                 <div>
-                    <img src="https://somosleve.com.br/wp-content/themes/Leve_2023/img/icon-o-que-somos-3.svg" width="60px" alt="iconlogo" />
+                    <img src="/icones/icon-o-que-somos-3.svg" width="60px" alt="iconlogo" />
                     <p>
                         Monitoramos a saúde financeira dos colaboradores, reportando os dados para os RH's das empresas
                     </p>
