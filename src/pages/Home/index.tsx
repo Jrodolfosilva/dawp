@@ -1,3 +1,4 @@
+import Header from "@/components/header/Header";
 import next from "next";
 import styles from "../../styles/home.module.css";
 
@@ -7,18 +8,19 @@ const Home=()=>{
 
     return(
         <>
+        
         <section className={styles.ContainerHome}>
          <div className={styles.ContainerContent}>
             <h1>
-            Suporte financeiro pro seu colaborador, resultado para a sua empresa
+            Trabalhamos para Implusionar, o sucesso do seu Négocio no Mercado Digital.
             </h1>
             <span></span>
             <p>
-            Consultoria financeira e uma rede de soluções que resolvem os problemas da vida real e garantem bem-estar dentro e fora do trabalho
+                Desenvolvemos soluções para peguenas e médias empresas, utilizamos as tecnologias mais recentes para construir de Landing pages, Sites Instituicionais, E-commerces e Aplicações Web.
             </p>
             <div>
-                <button>SOU RH E QUERO</button>
-                <button>QUERO INDICAR PRO MEU RG</button>
+                <button>IMPLUSIONAR MEU NÉGOCIO</button>
+                <button>CONHEÇA NOSSAS SOLUÇÕES</button>
             </div>
          </div>
          <div className={styles.Containercreative}>
@@ -35,21 +37,24 @@ const Home=()=>{
 
             <div className={styles.AboutContent}>
                 <span>Quem Somos</span>
-                <h2>Um plano de saúde financeira na palma da mão do colaborador</h2>
+                <h2>
+                    Utilizamos tecnologia a favor do pequeno e médio empreendedor
+
+                </h2>
                 <div>
-                    <img src="" alt="iconlogo" />
+                    <img src="https://somosleve.com.br/wp-content/themes/Leve_2023/img/icon-o-que-somos-1.svg" width="60px" alt="iconlogo" />
                     <p>
                         Oferecemos consultoria financeira para ajudar os colaboradores a superar desafios e realizar sonhos
                     </p>
                 </div>
                 <div>
-                    <img src="" alt="iconlogo" />
+                    <img src="https://somosleve.com.br/wp-content/themes/Leve_2023/img/icon-o-que-somos-2.svg" width="60px" alt="iconlogo" />
                     <p>
                         Diagnosticamos a raiz dos problemas financeiros e entregamos a melhor solução para cada caso
                     </p>
                 </div>
                 <div>
-                    <img src="" alt="iconlogo" />
+                    <img src="https://somosleve.com.br/wp-content/themes/Leve_2023/img/icon-o-que-somos-3.svg" width="60px" alt="iconlogo" />
                     <p>
                         Monitoramos a saúde financeira dos colaboradores, reportando os dados para os RH's das empresas
                     </p>
@@ -58,6 +63,7 @@ const Home=()=>{
             </div>
 
         </section>
+        
         <section className={styles.ContainerOpportunity}>
             <span>Oportunidade</span>
             <h3>

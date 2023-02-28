@@ -14,7 +14,7 @@ const Header =()=>{
     return(
         <header className={styles.ContainerHeader}  >
             <div>
-                <img src="" alt="logo-marca-da-dawp" />
+                <img src="" alt="logo-marca" />
             </div>
             <nav className={styles.menumain}>
                 <ul>
