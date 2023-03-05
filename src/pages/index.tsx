@@ -1,6 +1,6 @@
 import Header from '@/components/header/Header'
 import Head from 'next/head'
-
+import HomeMain from './Home'
 
 export default function Home() {
   return (
@@ -11,7 +11,9 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
       </Head>
       <main>
-        <Header/>
+        {
+          <HomeMain/>
+        }
       </main>
     </>
   )

@@ -2,9 +2,9 @@ import Header from "@/components/header/Header";
 import next from "next";
 import Image from "next/image";
 import styles from "../../styles/home.module.css";
+import Link from "next/link";
 
-
-const Home=()=>{
+const HomeMain=()=>{
 
 
     return(
@@ -29,12 +29,15 @@ const Home=()=>{
          </div>
         </section>
 
-        <section className={styles.ContainerAbout}>
+        <section id="sobre" className={styles.ContainerAbout}>
 
             <div className={styles.AboutCreative}>
                
-                <img src="/images/img-about.jpg" alt="imagem com efeito de movimento" />
-
+              <img
+                   src="/images/img-about.jpg"
+                   alt="iconlogo"
+                />
+               
             </div>
 
             <div className={styles.AboutContent}>
@@ -44,19 +47,34 @@ const Home=()=>{
 
                 </h2>
                 <div>
-                    <img src="/icones/icon-o-que-somos-1.svg" width="60px" alt="iconlogo" />
+                    <Image
+                        src="/icones/icon-o-que-somos-1.svg"
+                        width={60} 
+                        height={60}
+                        alt="iconlogo"
+                    />
                     <p>
                         Oferecemos consultoria financeira para ajudar os colaboradores a superar desafios e realizar sonhos
                     </p>
                 </div>
                 <div>
-                    <img src="/icones/icon-o-que-somos-2.svg" width="60px" alt="iconlogo" />
+                    <Image
+                        src="/icones/icon-o-que-somos-2.svg"
+                        width={60} 
+                        height={60}
+                        alt="iconlogo"
+                    />
                     <p>
                         Diagnosticamos a raiz dos problemas financeiros e entregamos a melhor solução para cada caso
                     </p>
                 </div>
                 <div>
-                    <img src="/icones/icon-o-que-somos-3.svg" width="60px" alt="iconlogo" />
+                    <Image
+                        src="/icones/icon-o-que-somos-3.svg"
+                        width={60} 
+                        height={60}
+                        alt="iconlogo"
+                    />
                     <p>
                         Monitoramos a saúde financeira dos colaboradores, reportando os dados para os RH's das empresas
                     </p>
@@ -102,4 +120,4 @@ const Home=()=>{
     )
 }
 
-export default Home
+export default HomeMain

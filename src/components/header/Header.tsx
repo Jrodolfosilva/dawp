@@ -2,6 +2,7 @@ import next from "next";
 import { Html } from "next/document";
 import { useState } from "react";
 import styles from "../../styles/header.module.css"
+import Link from "next/link";
 
 
 const Header =()=>{
@@ -14,12 +15,29 @@ const Header =()=>{
     return(
         <header className={styles.ContainerHeader}  >
             <div>
+                <Link
+                href="/Home"
+                >
                 <img src="" alt="logo-marca" />
+                </Link>
             </div>
             <nav className={styles.menumain}>
                 <ul>
-                    <li>Home</li>
-                    <li>Quem Somos</li>
+                    <li>
+                        <Link
+                        href="/Home"
+                        >
+                        Home
+                        </Link>
+                    </li>
+                    <li>
+                        <Link
+                        href="/Home#sobre"
+                        >
+                        Quem Somos
+                        </Link>
+                    </li>
+
                     <li
                     onClick={()=>{
                         setSolution(!solution);
@@ -48,7 +66,12 @@ const Header =()=>{
                         
                         
                         </li>
-                    <li>Blog</li>
+                    <li>
+                        <Link href="/blog">
+                        Blog
+                        </Link>
+                           
+                    </li>
 
 
                     <li  onClick={()=>{
