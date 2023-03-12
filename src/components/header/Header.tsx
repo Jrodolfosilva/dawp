@@ -1,8 +1,8 @@
 import next from "next";
-import { Html } from "next/document";
 import { useState } from "react";
 import styles from "../../styles/header.module.css"
 import Link from "next/link";
+
 
 
 const Header =()=>{
@@ -18,7 +18,7 @@ const Header =()=>{
                 <Link
                 href="/Home"
                 >
-                <img src="" alt="logo-marca" />
+                <img src="/images/logo-dawp.png" alt="logo-marca" width="120px" />
                 </Link>
             </div>
             <nav className={styles.menumain}>

@@ -87,33 +87,39 @@ const HomeMain=()=>{
         <section className={styles.ContainerOpportunity}>
             <span>Oportunidade</span>
             <h3>
-            O stress financeiro dos colaboradores<br/>
-            Impacta na saúde da sua empresa
+            Segundo a Internet World Stats<br/> cerca de 4,9 bilhões de pessoas em todo o mundo usam a Internet
             </h3>
             <p>
-            As dificuldades financeiras afetam 42% dos colaboradores, resultando em
-             <br/>queda de desempenho, problemas de retenção e aumento de custos
+            Segundo a Statista, a receita global de comércio eletrônico em 2021 deve chegar a mais de US$ 4,2 trilhões. Ter um site é fundamental para aproveitar essa oportunidade de negócios.
             </p>
             <div className={styles.ContainerOpportunityBox}>
                 <div>
-                    <span>10x</span>
+                    <span>46%</span>
                     <p>
-                    mais chances de um colaborador não conseguir terminar suas tarefas por causa de estresse financeiro
+                        Das pequenas empresas que não possuiem um site e que pode estar perdendo clientes para a sua concorrência direta.
                     </p>
                 </div>
                 <div>
-                    <span>18%</span>
+                    <span>85%</span>
                     <p>
-                    mais chances de funcionários desmotivados buscarem um novo emprego com melhores benefícios
+                    Dos consumidores pesquisam on-line antes de fazer uma compra. Um site bem projetado pode ajudandar a atrair mais clientes.
                     </p>
                 </div>
                 <div>
-                    <span>2x</span>
+                    <span>25%</span>
                     <p>
-                    mais chances de funcionários desmotivados buscarem um novo emprego com melhores benefícios
+                    Essa é a média que os consumidores gastam há mais na internet em comparação com as compras reaizadas diretamente nas lojas fisicas.
+
                     </p>
                 </div>
             </div>
+        </section>
+
+        <section>
+            <span>Tecnologias</span>
+              <h3>
+              Utilizamos tecnologia de ponta para desenvolver soluções, como JavaScript, HTML semântico e CSS3, além de frameworks como React e Next.js e tecnologias como Node.js e WordPress com Elementor. Também utilizamos o Graphql para consultas mais eficientes ao banco de dados.
+              </h3>
         </section>
 
         </>
